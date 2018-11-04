@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/home/kurt/Documents/github/kurtlogan/hangman/src/main/scala/hangman/Main.scala:66:28: polymorphic expression cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : [E1 >: java.io.IOException, B](io: => scalaz.zio.IO[E1,B])scalaz.zio.IO[E1,B][0m
+[0m[[0m[31merror[0m] [0m[0m required: scalaz.zio.IO[java.io.IOException,Unit][0m
+[0m[[0m[31merror[0m] [0m[0m    putStrLn(placeholders) *>[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

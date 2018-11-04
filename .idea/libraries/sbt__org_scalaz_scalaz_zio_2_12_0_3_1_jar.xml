@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.scalaz:scalaz-zio_2.12:0.3.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-zio_2.12/jars/scalaz-zio_2.12-0.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-zio_2.12/srcs/scalaz-zio_2.12-0.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

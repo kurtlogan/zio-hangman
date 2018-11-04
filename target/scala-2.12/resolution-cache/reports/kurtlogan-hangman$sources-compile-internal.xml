@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="kurtlogan"
+		module="hangman$sources"
+		revision="0.1.0-SNAPSHOT"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20181104095136"/>
+	<dependencies>
+		<module organisation="org.scalaz" name="scalaz-zio_2.12">
+			<revision name="0.3.1" status="release" pubdate="20181019173321" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://scalaz.github.io/scalaz-zio/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3312" time="0" location="/home/kurt/.ivy2/cache/org.scalaz/scalaz-zio_2.12/ivy-0.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-zio_2.12/0.3.1/scalaz-zio_2.12-0.3.1.pom"/>
+				<caller organisation="kurtlogan" name="hangman$sources" conf="compile-internal, compile, provided, optional" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalaz-zio_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="46628" time="361" location="/home/kurt/.ivy2/cache/org.scalaz/scalaz-zio_2.12/srcs/scalaz-zio_2.12-0.3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-zio_2.12/0.3.1/scalaz-zio_2.12-0.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-core_2.12">
+			<revision name="7.2.26" status="release" pubdate="20180816090827" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="BSD-style" url="https://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2641" time="0" location="/home/kurt/.ivy2/cache/org.scalaz/scalaz-core_2.12/ivy-7.2.26.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.26/scalaz-core_2.12-7.2.26.pom"/>
+				<caller organisation="kurtlogan" name="hangman$sources" conf="compile-internal, compile, provided, optional" rev="7.2.26" rev-constraint-default="7.2.26" rev-constraint-dynamic="7.2.26" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalaz-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="393784" time="0" location="/home/kurt/.ivy2/cache/org.scalaz/scalaz-core_2.12/srcs/scalaz-core_2.12-7.2.26-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.26/scalaz-core_2.12-7.2.26-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.6" status="release" pubdate="20180427094006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/kurt/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.pom"/>
+				<caller organisation="kurtlogan" name="hangman$sources" conf="compile-internal, compile, provided, optional" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="992293" time="0" location="/home/kurt/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
